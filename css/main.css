@@ -36,6 +36,11 @@ header .list-menu {
     margin: 15px 0;
 }
 
+header .list-language a,
+header .list-menu a {
+    color: #fff;
+}
+
 header .list-language li {
     font-size: 12px;
     line-height: 15px;
@@ -468,12 +473,15 @@ p a {
 
 .icon {
     display: inline-block;
-    height: 16px;
-    width: 16px;
+    height: 21px;
+    width: 21px;
 }
 
 .icon.icon-phone {
     background: url('../img/icon/icon-phone.png') 0 0;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 5px;
 }
 
 
