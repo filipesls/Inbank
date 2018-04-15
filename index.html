@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inbank</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="js/lib/rangeslider.js-2.3.0/rangeslider.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="js/lib/rangeslider.js-2.3.0/rangeslider.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="header-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <ul class="list-unstyled list-inline list-language">
+                            <li class="list-inline-item">EST</li>
+                            <li class="list-inline-item">RUS</li>
+                        </ul>
+                    </div>
+                    <div class="col text-right">
+                        <ul class="list-unstyled list-inline list-menu">
+                            <li class="list-inline-item">Business</li>
+                            <li class="list-inline-item">Investor</li>
+                            <li class="list-inline-item">Inbank</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="navbar-container">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="img/inbank_logo_header.svg" height="60" alt="">
+                        </a>
+                    
+                        <div class="collapse navbar-collapse" id="navbarToggler">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Deposit
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Loan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hirepurchase</a>
+                                </li>
+                            </ul>
+                            <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                            <button type="button" class="btn btn-inbank-purple">Login</button>
+                        </div>
+                    </nav>
+                    <div class="row">
+                        <div class="col">
+                            <div class="navbar-phone text-right">
+                                <p><i class="icon icon-phone"></i> 372 640 8080</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-header">
+                    <div class="row">
+                        <div class="col">
+                            <h1>Lorem Ipsum dolores</h1>
+                            <div class="row">
+                                <ul class="check-list check-list-gray">
+                                    <li class="col"><span>Some benefits</span></li>
+                                    <li class="col"><span>100% online</span></li>
+                                    <li class="col"><span>Fast response</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <div class="slider-info">
+                                            <span>Amount</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <div class="slidecontainer">
+                                            <input type="range" min="1000" max="4000" step="10" value="1500">
+                                            <div class="range-min-max">
+                                                <span class="range-min float-left">1000 eur</span>
+                                                <span class="range-max float-right">4000 eur</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <div class="slider-info">
+                                            <span>Period</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <div class="slidecontainer">
+                                            <input type="range" min="1" max="4" step="1" value="3">
+                                            <div class="range-min-max">
+                                                <span class="range-min float-left">1 month</span>
+                                                <span class="range-max float-right">4 month</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="value-info text-right">
+                                <span class="txt-info">Lorem Ipsum dolores</span>
+                                <span class="txt-value"><span id="finalValue">160</span> EUR</span>
+                                <small class="txt-description"><a href="#">lorem ipsum dolores some footer text</a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col text-center">
+                            <div class="button-container">
+                                <button type="button" class="btn btn-inbank-yellow">Apply</button>
+                                <small class="txt-description db">If you already client, <a href="#">log in</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="content-section">
+        <div class="section-deposit">
+            <div class="container">
+
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">Library</li>
+                    </ol>
+                </nav>
+
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="section-deposit__info">
+                            <h1>Lorem ipsum dolores</h1>
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed ligula vitae mauris vehicula pretium nec vitae lectus.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed ligula vitae mauris vehicula pretium nec vitae lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque blandit malesuada ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam urna sem, facilisis quis efficitur tincidunt, suscipit eget sapien.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="graphic-question__ellipse">
+                            <span class="graphic-question__symbol">?</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col">
+                        <div class="section-deposit__tab">
+
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="tab-1-tab" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Dolor sit amet</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tab-2-tab" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Lorem ipsum</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1-tab">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="fs-20">Term deposit is for you if you...</p>
+                                            <ul class="check-list check-list-purple">
+                                                <li><span>have extra money that you do not need for your daily life</span></li>
+                                                <li><span>wish to earn more</span></li>
+                                                <li><span>Thave a long term perspective for your finances</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col">
+                                            <p class="fs-20">Flexible deposit is for you if you ...</p>
+                                            <ul class="check-list check-list-purple">
+                                                <li><span>have extra money that you do not need for your daily life</span></li>
+                                                <li><span>wish to have the possibility to take out a part of your deposit without losing the interest</span></li>
+                                                <li><span>want to add money later on with the initial interest rate</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <button type="button" class="btn btn-inbank-purple">Compare Deposits</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2-tab">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="fs-20">Term deposit is for you if you...</p>
+                                            <ul class="check-list check-list-purple">
+                                                <li>
+                                                    <span>have extra money that you do not need for your daily life</span>
+                                                </li>
+                                                <li>
+                                                    <span>wish to earn more</span>
+                                                </li>
+                                                <li>
+                                                    <span>Thave a long term perspective for your finances</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col">
+                                            <p class="fs-20">Flexible deposit is for you if you ...</p>
+                                            <ul class="check-list check-list-purple">
+                                                <li>
+                                                    <span>have extra money that you do not need for your daily life</span>
+                                                </li>
+                                                <li>
+                                                    <span>wish to have the possibility to take out a part of your deposit without losing the interest</span>
+                                                </li>
+                                                <li>
+                                                    <span>want to add money later on with the initial interest rate</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="main-footer__section">
+        <div class="main-footer__nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <h2 class="main-footer__title">Private customer</h2>
+                        <ul class="list-unstyled main-footer__list">
+                            <li>
+                                <a href="#">Deposit</a>
+                            </li>
+                            <li>
+                                <a href="#">Interest rates</a>
+                            </li>
+                            <li>
+                                <a href="#">Hire-purchase</a>
+                            </li>
+                            <li>
+                                <a href="#">Loan</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h2 class="main-footer__title">Business customer</h2>
+                        <ul class="list-unstyled main-footer__list">
+                            <li>
+                                <a href="#">Deposit</a>
+                            </li>
+                            <li>
+                                <a href="#">Full service leasing</a>
+                            </li>
+                            <li>
+                                <a href="#">Become a hire-purchase partner</a>
+                            </li>
+                            <li>
+                                <a href="#">Cooperation opportunities</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h2 class="main-footer__title">Inbank</h2>
+                        <ul class="list-unstyled main-footer__list">
+                            <li>
+                                <a href="#">About Inbank</a>
+                            </li>
+                            <li>
+                                <a href="#">Our team</a>
+                            </li>
+                            <li>
+                                <a href="#">Job offers</a>
+                            </li>
+                            <li>
+                                <a href="#">For investors</a>
+                            </li>
+                            <li>
+                                <a href="#">Become a customer</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h2 class="main-footer__title">General</h2>
+                        <ul class="list-unstyled main-footer__list">
+                            <li>
+                                <a href="#">Terms and conditions</a>
+                            </li>
+                            <li>
+                                <a href="#">Pricelist</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="#">News</a>
+                            </li>
+                            <li>
+                                <a href="#">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-footer__contact">
+                    <div class="row">
+                        <div class="col">
+                            <ul class="list-inline main-footer__contacts-list">
+                                <li>
+                                    <a href="#" title="Inbank" class="logo-footer">
+                                        <img src="img/inbank_logo_footer.svg" alt="Inbank" width="40" height="40">
+                                    </a>
+                                    <span class="bdr">Inbank AS. Niine 11, 10414 Tallinn.</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="bdr">info@inbank.ee</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>+372 640 8080</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-footer__note">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="text-light small">You are on the homepage of Inbank AS – a credit institution providing financial services. Before signing a contract, carefully read the terms of said contract and consult with Inbank AS employees or other specialists if necessary. By using our homepage you confirm that you accept the <a href="#">webpage terms and conditions</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
